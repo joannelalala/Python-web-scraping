@@ -80,7 +80,7 @@ def get_uni_information(unilist, page=62):
             ff_driver.execute_script("arguments[0].click();", element)
             time.sleep(5)
     else:
-        print("Max page is 40.")
+        print("Max page is 62.")
     
     ff_driver.quit()
     return unilist
